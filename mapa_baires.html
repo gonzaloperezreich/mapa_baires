@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_962b564f7d7654e5bc725f3c279b6c68 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_962b564f7d7654e5bc725f3c279b6c68" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_962b564f7d7654e5bc725f3c279b6c68 = L.map(
+                "map_962b564f7d7654e5bc725f3c279b6c68",
+                {
+                    center: [-34.6037, -58.3816],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f99a5aa1295f1f36a4dc87c1bbbff243 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var marker_a2fe57380718ae9cabd321bb7295619b = L.marker(
+                [-34.5970167575215, -58.386700237431405],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_257b02dbc1cad298ee2e5b56b8ba6b1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a2fe57380718ae9cabd321bb7295619b.setIcon(icon_257b02dbc1cad298ee2e5b56b8ba6b1d);
+        
+    
+        var popup_9ab5434f7780c6d9abd14913bb121291 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e63dc3ba8aaf3100cb747656a66541eb = $(`<div id="html_e63dc3ba8aaf3100cb747656a66541eb" style="width: 100.0%; height: 100.0%;">Hotel Ker Recoleta (Día 1 - Lunes (Azul))</div>`)[0];
+            popup_9ab5434f7780c6d9abd14913bb121291.setContent(html_e63dc3ba8aaf3100cb747656a66541eb);
+        
+
+        marker_a2fe57380718ae9cabd321bb7295619b.bindPopup(popup_9ab5434f7780c6d9abd14913bb121291)
+        ;
+
+        
+    
+    
+            var marker_d8f754118570942f233f1d0d41f7e1a0 = L.marker(
+                [-34.5836, -58.3933],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_429f31dd51cc964d39f5752cce34046d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d8f754118570942f233f1d0d41f7e1a0.setIcon(icon_429f31dd51cc964d39f5752cce34046d);
+        
+    
+        var popup_b53e6f7f0daf7509f3cca1f6e92eadc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d7dd72749eab17d414cef83492bb33e = $(`<div id="html_8d7dd72749eab17d414cef83492bb33e" style="width: 100.0%; height: 100.0%;">Floralis Genérica (Día 1 - Lunes (Azul))</div>`)[0];
+            popup_b53e6f7f0daf7509f3cca1f6e92eadc7.setContent(html_8d7dd72749eab17d414cef83492bb33e);
+        
+
+        marker_d8f754118570942f233f1d0d41f7e1a0.bindPopup(popup_b53e6f7f0daf7509f3cca1f6e92eadc7)
+        ;
+
+        
+    
+    
+            var marker_bda4a259f9fed160a5be06fddf07646a = L.marker(
+                [-34.5889, -58.3932],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_8957b38703fb2faae2548abc05ef46ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bda4a259f9fed160a5be06fddf07646a.setIcon(icon_8957b38703fb2faae2548abc05ef46ec);
+        
+    
+        var popup_ace199d9fb9760f1c51e823332e08068 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bffe108a98333c2286765864ffffec7 = $(`<div id="html_8bffe108a98333c2286765864ffffec7" style="width: 100.0%; height: 100.0%;">Cementerio de la Recoleta (Día 1 - Lunes (Azul))</div>`)[0];
+            popup_ace199d9fb9760f1c51e823332e08068.setContent(html_8bffe108a98333c2286765864ffffec7);
+        
+
+        marker_bda4a259f9fed160a5be06fddf07646a.bindPopup(popup_ace199d9fb9760f1c51e823332e08068)
+        ;
+
+        
+    
+    
+            var marker_035914276adb4f5e73e25180546de071 = L.marker(
+                [-34.5891, -58.3925],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_2e9b28edf38d87ff8424ddbfc54a9401 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_035914276adb4f5e73e25180546de071.setIcon(icon_2e9b28edf38d87ff8424ddbfc54a9401);
+        
+    
+        var popup_9102b0996a3c9cc137b04766fa585b89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6edb2976800e4ed4eef6fd771ffe8ad3 = $(`<div id="html_6edb2976800e4ed4eef6fd771ffe8ad3" style="width: 100.0%; height: 100.0%;">Centro Cultural Recoleta (Día 1 - Lunes (Azul))</div>`)[0];
+            popup_9102b0996a3c9cc137b04766fa585b89.setContent(html_6edb2976800e4ed4eef6fd771ffe8ad3);
+        
+
+        marker_035914276adb4f5e73e25180546de071.bindPopup(popup_9102b0996a3c9cc137b04766fa585b89)
+        ;
+
+        
+    
+    
+            var marker_cf4b475c4e617ed5ebe556b6e750a3c3 = L.marker(
+                [-34.5966, -58.3935],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_d9d739ff6560e992a8b68bce9290ed21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf4b475c4e617ed5ebe556b6e750a3c3.setIcon(icon_d9d739ff6560e992a8b68bce9290ed21);
+        
+    
+        var popup_c80797caa75af18aad3c78791e3f9be0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_291476fa7bc58f374bf10408657e5af6 = $(`<div id="html_291476fa7bc58f374bf10408657e5af6" style="width: 100.0%; height: 100.0%;">El Ateneo Grand Splendid (Día 1 - Lunes (Azul))</div>`)[0];
+            popup_c80797caa75af18aad3c78791e3f9be0.setContent(html_291476fa7bc58f374bf10408657e5af6);
+        
+
+        marker_cf4b475c4e617ed5ebe556b6e750a3c3.bindPopup(popup_c80797caa75af18aad3c78791e3f9be0)
+        ;
+
+        
+    
+    
+            var marker_biblioteca_nacional = L.marker(
+                [-34.5958, -58.3936],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_biblioteca_nacional = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_biblioteca_nacional.setIcon(icon_biblioteca_nacional);
+        
+    
+        var popup_biblioteca_nacional = L.popup({"maxWidth": "100%"});
+
+        
+            var html_biblioteca_nacional = $(`<div id="html_biblioteca_nacional" style="width: 100.0%; height: 100.0%;">Biblioteca Nacional (Día 1 - Lunes (Azul))</div>`)[0];
+            popup_biblioteca_nacional.setContent(html_biblioteca_nacional);
+        
+
+        marker_biblioteca_nacional.bindPopup(popup_biblioteca_nacional)
+        ;
+
+        
+    
+    
+            var marker_plaza_francia = L.marker(
+                [-34.5883, -58.3943],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_plaza_francia = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_plaza_francia.setIcon(icon_plaza_francia);
+        
+    
+        var popup_plaza_francia = L.popup({"maxWidth": "100%"});
+
+        
+            var html_plaza_francia = $(`<div id="html_plaza_francia" style="width: 100.0%; height: 100.0%;">Plaza Francia (Día 1 - Lunes (Azul))</div>`)[0];
+            popup_plaza_francia.setContent(html_plaza_francia);
+        
+
+        marker_plaza_francia.bindPopup(popup_plaza_francia)
+        ;
+
+        
+    
+    
+            var marker_1946bd84cb1be11c22bb14bc8bf11f37 = L.marker(
+                [-34.583, -58.3929],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_3cae5ebf8ce70c4614796cf34f41e522 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1946bd84cb1be11c22bb14bc8bf11f37.setIcon(icon_3cae5ebf8ce70c4614796cf34f41e522);
+        
+    
+        var popup_1bcf73ae147be761f4c06cfdeecaa81f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dece07884e8d12ba19cd9ec2153492aa = $(`<div id="html_dece07884e8d12ba19cd9ec2153492aa" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes (Día 2 - Martes (Verde))</div>`)[0];
+            popup_1bcf73ae147be761f4c06cfdeecaa81f.setContent(html_dece07884e8d12ba19cd9ec2153492aa);
+        
+
+        marker_1946bd84cb1be11c22bb14bc8bf11f37.bindPopup(popup_1bcf73ae147be761f4c06cfdeecaa81f)
+        ;
+
+        
+    
+    
+            var marker_4b12978f53310325310776bf386d327d = L.marker(
+                [-34.5685, -58.4117],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_28227750496cbfc3aa1160cf8b7eb05d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4b12978f53310325310776bf386d327d.setIcon(icon_28227750496cbfc3aa1160cf8b7eb05d);
+        
+    
+        var popup_5f763100b3f76a1da0ddc4bbfb25e517 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a08e9c20c57120b0431a2fae50b1a766 = $(`<div id="html_a08e9c20c57120b0431a2fae50b1a766" style="width: 100.0%; height: 100.0%;">Planetario Galileo Galilei (Día 2 - Martes (Verde))</div>`)[0];
+            popup_5f763100b3f76a1da0ddc4bbfb25e517.setContent(html_a08e9c20c57120b0431a2fae50b1a766);
+        
+
+        marker_4b12978f53310325310776bf386d327d.bindPopup(popup_5f763100b3f76a1da0ddc4bbfb25e517)
+        ;
+
+        
+    
+    
+            var marker_396130a43e66ae5b4e2d99096b239925 = L.marker(
+                [-34.5751, -58.4039],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_2b27a968161ce118c9e2195de03ccccc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_396130a43e66ae5b4e2d99096b239925.setIcon(icon_2b27a968161ce118c9e2195de03ccccc);
+        
+    
+        var popup_496cf0a5fa777a2fb46ec3cbaa22ebcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7c2fa47cf869dfbc22cca584fec436d = $(`<div id="html_f7c2fa47cf869dfbc22cca584fec436d" style="width: 100.0%; height: 100.0%;">Jardín Japonés (Día 2 - Martes (Verde))</div>`)[0];
+            popup_496cf0a5fa777a2fb46ec3cbaa22ebcc.setContent(html_f7c2fa47cf869dfbc22cca584fec436d);
+        
+
+        marker_396130a43e66ae5b4e2d99096b239925.bindPopup(popup_496cf0a5fa777a2fb46ec3cbaa22ebcc)
+        ;
+
+        
+    
+    
+            var marker_eb0412b5e169600645be8c1c11dd50e0 = L.marker(
+                [-34.5675, -58.4116],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_34fa71fd0e982508f49ef9ffb87f3f72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eb0412b5e169600645be8c1c11dd50e0.setIcon(icon_34fa71fd0e982508f49ef9ffb87f3f72);
+        
+    
+        var popup_5d35bd109858f3231051bc06633ff9a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_269e4dd3a687cd8bb971d3df6adb0b08 = $(`<div id="html_269e4dd3a687cd8bb971d3df6adb0b08" style="width: 100.0%; height: 100.0%;">Bosques de Palermo (Día 2 - Martes (Verde))</div>`)[0];
+            popup_5d35bd109858f3231051bc06633ff9a7.setContent(html_269e4dd3a687cd8bb971d3df6adb0b08);
+        
+
+        marker_eb0412b5e169600645be8c1c11dd50e0.bindPopup(popup_5d35bd109858f3231051bc06633ff9a7)
+        ;
+
+        
+    
+    
+            var marker_museo_evita = L.marker(
+                [-34.5843, -58.3963],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_museo_evita = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_museo_evita.setIcon(icon_museo_evita);
+        
+    
+        var popup_museo_evita = L.popup({"maxWidth": "100%"});
+
+        
+            var html_museo_evita = $(`<div id="html_museo_evita" style="width: 100.0%; height: 100.0%;">Museo Evita (Día 2 - Martes (Verde))</div>`)[0];
+            popup_museo_evita.setContent(html_museo_evita);
+        
+
+        marker_museo_evita.bindPopup(popup_museo_evita)
+        ;
+
+        
+    
+    
+            var marker_rosedal_palermo = L.marker(
+                [-34.5693, -58.4088],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_rosedal_palermo = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_rosedal_palermo.setIcon(icon_rosedal_palermo);
+        
+    
+        var popup_rosedal_palermo = L.popup({"maxWidth": "100%"});
+
+        
+            var html_rosedal_palermo = $(`<div id="html_rosedal_palermo" style="width: 100.0%; height: 100.0%;">Rosedal de Palermo (Día 2 - Martes (Verde))</div>`)[0];
+            popup_rosedal_palermo.setContent(html_rosedal_palermo);
+        
+
+        marker_rosedal_palermo.bindPopup(popup_rosedal_palermo)
+        ;
+
+        
+    
+    
+            var marker_60dc1cf619e5ffa2e90c0dc0aa631c40 = L.marker(
+                [-34.6099, -58.3923],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_55ccd13721a24df13eb5ec96fa9e6d97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_60dc1cf619e5ffa2e90c0dc0aa631c40.setIcon(icon_55ccd13721a24df13eb5ec96fa9e6d97);
+        
+    
+        var popup_73ddec7c0705775067c7a5062867f1ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_948a11ead21afaa3e558161ff02da4bf = $(`<div id="html_948a11ead21afaa3e558161ff02da4bf" style="width: 100.0%; height: 100.0%;">Congreso de la Nación (Día 3 - Miércoles (Rojo))</div>`)[0];
+            popup_73ddec7c0705775067c7a5062867f1ec.setContent(html_948a11ead21afaa3e558161ff02da4bf);
+        
+
+        marker_60dc1cf619e5ffa2e90c0dc0aa631c40.bindPopup(popup_73ddec7c0705775067c7a5062867f1ec)
+        ;
+
+        
+    
+    
+            var marker_2f78b633e6f7275e4b440666f81bb105 = L.marker(
+                [-34.6037, -58.3816],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_5dc9d89faf829d4f0abb22554ab3c86e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f78b633e6f7275e4b440666f81bb105.setIcon(icon_5dc9d89faf829d4f0abb22554ab3c86e);
+        
+    
+        var popup_db5ffe8f2a028d026dd67fcb0efac0fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef24eaca50e630953b871314034ef6fc = $(`<div id="html_ef24eaca50e630953b871314034ef6fc" style="width: 100.0%; height: 100.0%;">Avenida 9 de Julio / Obelisco (Día 3 - Miércoles (Rojo))</div>`)[0];
+            popup_db5ffe8f2a028d026dd67fcb0efac0fe.setContent(html_ef24eaca50e630953b871314034ef6fc);
+        
+
+        marker_2f78b633e6f7275e4b440666f81bb105.bindPopup(popup_db5ffe8f2a028d026dd67fcb0efac0fe)
+        ;
+
+        
+    
+    
+            var marker_c4fdd2e926bd05d438e6ec5bf0826c4b = L.marker(
+                [-34.6012, -58.386],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_e272be6e3d4bc1132451962432baf2a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c4fdd2e926bd05d438e6ec5bf0826c4b.setIcon(icon_e272be6e3d4bc1132451962432baf2a3);
+        
+    
+        var popup_0ba56f76871dfbdbb5c43d69c712db91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53d1a309df62a184992a7594afdc6719 = $(`<div id="html_53d1a309df62a184992a7594afdc6719" style="width: 100.0%; height: 100.0%;">Teatro Colón (Día 3 - Miércoles (Rojo))</div>`)[0];
+            popup_0ba56f76871dfbdbb5c43d69c712db91.setContent(html_53d1a309df62a184992a7594afdc6719);
+        
+
+        marker_c4fdd2e926bd05d438e6ec5bf0826c4b.bindPopup(popup_0ba56f76871dfbdbb5c43d69c712db91)
+        ;
+
+        
+    
+    
+            var marker_38580ab9f3974b2739239149abea7015 = L.marker(
+                [-34.6081, -58.3755],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_15e644d1ae580a49569862443a1a829d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38580ab9f3974b2739239149abea7015.setIcon(icon_15e644d1ae580a49569862443a1a829d);
+        
+    
+        var popup_40c2c2efe6059b8e482d1eb7a585c576 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84b7aac439a748f0accac79e294585f5 = $(`<div id="html_84b7aac439a748f0accac79e294585f5" style="width: 100.0%; height: 100.0%;">Café Tortoni (Día 3 - Miércoles (Rojo))</div>`)[0];
+            popup_40c2c2efe6059b8e482d1eb7a585c576.setContent(html_84b7aac439a748f0accac79e294585f5);
+        
+
+        marker_38580ab9f3974b2739239149abea7015.bindPopup(popup_40c2c2efe6059b8e482d1eb7a585c576)
+        ;
+
+        
+    
+    
+            var marker_casa_rosada = L.marker(
+                [-34.6082, -58.3702],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_casa_rosada = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_casa_rosada.setIcon(icon_casa_rosada);
+        
+    
+        var popup_casa_rosada = L.popup({"maxWidth": "100%"});
+
+        
+            var html_casa_rosada = $(`<div id="html_casa_rosada" style="width: 100.0%; height: 100.0%;">Casa Rosada (Día 3 - Miércoles (Rojo))</div>`)[0];
+            popup_casa_rosada.setContent(html_casa_rosada);
+        
+
+        marker_casa_rosada.bindPopup(popup_casa_rosada)
+        ;
+
+        
+    
+    
+            var marker_plaza_mayo = L.marker(
+                [-34.6082, -58.3719],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_plaza_mayo = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_plaza_mayo.setIcon(icon_plaza_mayo);
+        
+    
+        var popup_plaza_mayo = L.popup({"maxWidth": "100%"});
+
+        
+            var html_plaza_mayo = $(`<div id="html_plaza_mayo" style="width: 100.0%; height: 100.0%;">Plaza de Mayo (Día 3 - Miércoles (Rojo))</div>`)[0];
+            popup_plaza_mayo.setContent(html_plaza_mayo);
+        
+
+        marker_plaza_mayo.bindPopup(popup_plaza_mayo)
+        ;
+
+        
+    
+    
+            var marker_42a3472975b25006533563152d9dc560 = L.marker(
+                [-34.6345, -58.3636],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_20e98053af6acb3c65bd8a49716dba8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_42a3472975b25006533563152d9dc560.setIcon(icon_20e98053af6acb3c65bd8a49716dba8e);
+        
+    
+        var popup_2777e1b489ec258697503ee3d9bf7ffe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c386f0a9e90e672577fce72f31905678 = $(`<div id="html_c386f0a9e90e672577fce72f31905678" style="width: 100.0%; height: 100.0%;">Caminito (Día 4 - Jueves (Naranja))</div>`)[0];
+            popup_2777e1b489ec258697503ee3d9bf7ffe.setContent(html_c386f0a9e90e672577fce72f31905678);
+        
+
+        marker_42a3472975b25006533563152d9dc560.bindPopup(popup_2777e1b489ec258697503ee3d9bf7ffe)
+        ;
+
+        
+    
+    
+            var marker_028d5ed5cdaf4bf93cc7ccc5aab050a3 = L.marker(
+                [-34.6354, -58.3642],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_48ff804aee0279f5c78dc40b5acbfcc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_028d5ed5cdaf4bf93cc7ccc5aab050a3.setIcon(icon_48ff804aee0279f5c78dc40b5acbfcc3);
+        
+    
+        var popup_70bac25fa283a89dae96942897b1fe50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aa8eca3278cb89f26ec4c408fab3904 = $(`<div id="html_0aa8eca3278cb89f26ec4c408fab3904" style="width: 100.0%; height: 100.0%;">Estadio La Bombonera (Día 4 - Jueves (Naranja))</div>`)[0];
+            popup_70bac25fa283a89dae96942897b1fe50.setContent(html_0aa8eca3278cb89f26ec4c408fab3904);
+        
+
+        marker_028d5ed5cdaf4bf93cc7ccc5aab050a3.bindPopup(popup_70bac25fa283a89dae96942897b1fe50)
+        ;
+
+        
+    
+    
+            var marker_2712fb0043c02f1e4101aad345b3acf3 = L.marker(
+                [-34.6207, -58.373],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_c2e845cfc3cc8521c2ae9592a073f77c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2712fb0043c02f1e4101aad345b3acf3.setIcon(icon_c2e845cfc3cc8521c2ae9592a073f77c);
+        
+    
+        var popup_5649c3bbbcf4cc897a2100423e444e6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c12cb08350e7c4e2e0928259605f33e2 = $(`<div id="html_c12cb08350e7c4e2e0928259605f33e2" style="width: 100.0%; height: 100.0%;">San Telmo / Plaza Dorrego (Día 4 - Jueves (Naranja))</div>`)[0];
+            popup_5649c3bbbcf4cc897a2100423e444e6f.setContent(html_c12cb08350e7c4e2e0928259605f33e2);
+        
+
+        marker_2712fb0043c02f1e4101aad345b3acf3.bindPopup(popup_5649c3bbbcf4cc897a2100423e444e6f)
+        ;
+
+        
+    
+    
+            var marker_3fe13159a09c879fb9936cc3ef894b95 = L.marker(
+                [-34.6195, -58.3732],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_6e8bd118dd01611763f234f560ee1c3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3fe13159a09c879fb9936cc3ef894b95.setIcon(icon_6e8bd118dd01611763f234f560ee1c3a);
+        
+    
+        var popup_bfa97680aff81398b51fac013dac881f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2be727cc487705b72e751781f2e79207 = $(`<div id="html_2be727cc487705b72e751781f2e79207" style="width: 100.0%; height: 100.0%;">Museo Moderno de Buenos Aires (Día 4 - Jueves (Naranja))</div>`)[0];
+            popup_bfa97680aff81398b51fac013dac881f.setContent(html_2be727cc487705b72e751781f2e79207);
+        
+
+        marker_3fe13159a09c879fb9936cc3ef894b95.bindPopup(popup_bfa97680aff81398b51fac013dac881f)
+        ;
+
+        
+    
+    
+            var marker_mercado_santelmo = L.marker(
+                [-34.6214, -58.3723],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_mercado_santelmo = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_mercado_santelmo.setIcon(icon_mercado_santelmo);
+        
+    
+        var popup_mercado_santelmo = L.popup({"maxWidth": "100%"});
+
+        
+            var html_mercado_santelmo = $(`<div id="html_mercado_santelmo" style="width: 100.0%; height: 100.0%;">Mercado de San Telmo (Día 4 - Jueves (Naranja))</div>`)[0];
+            popup_mercado_santelmo.setContent(html_mercado_santelmo);
+        
+
+        marker_mercado_santelmo.bindPopup(popup_mercado_santelmo)
+        ;
+
+        
+    
+    
+            var marker_puente_avellaneda = L.marker(
+                [-34.6386, -58.3613],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_puente_avellaneda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_puente_avellaneda.setIcon(icon_puente_avellaneda);
+        
+    
+        var popup_puente_avellaneda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_puente_avellaneda = $(`<div id="html_puente_avellaneda" style="width: 100.0%; height: 100.0%;">Puente Transbordador N. Avellaneda (Día 4 - Jueves (Naranja))</div>`)[0];
+            popup_puente_avellaneda.setContent(html_puente_avellaneda);
+        
+
+        marker_puente_avellaneda.bindPopup(popup_puente_avellaneda)
+        ;
+
+        
+    
+    
+            var marker_8d2df4f1525ec26c4c5f7ac058aee6fe = L.marker(
+                [-34.609, -58.3624],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_02d55ddd1518f12e9a2f4d173800f40b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8d2df4f1525ec26c4c5f7ac058aee6fe.setIcon(icon_02d55ddd1518f12e9a2f4d173800f40b);
+        
+    
+        var popup_92e58fd6c755b2b766273ecc2e9fe134 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfdb5501a3d3f04255d3fd3420a2d379 = $(`<div id="html_bfdb5501a3d3f04255d3fd3420a2d379" style="width: 100.0%; height: 100.0%;">Puerto Madero (Día 5 - Viernes (Morado))</div>`)[0];
+            popup_92e58fd6c755b2b766273ecc2e9fe134.setContent(html_bfdb5501a3d3f04255d3fd3420a2d379);
+        
+
+        marker_8d2df4f1525ec26c4c5f7ac058aee6fe.bindPopup(popup_92e58fd6c755b2b766273ecc2e9fe134)
+        ;
+
+        
+    
+    
+            var marker_04d8f830472c7d462e23b216ee6e5066 = L.marker(
+                [-34.6083, -58.3658],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_6d24741d1525e31e103012240e00507d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_04d8f830472c7d462e23b216ee6e5066.setIcon(icon_6d24741d1525e31e103012240e00507d);
+        
+    
+        var popup_beef242ff670e3ba745b349c18305e7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5771950e2c477587f3d65c8a372b9d7 = $(`<div id="html_d5771950e2c477587f3d65c8a372b9d7" style="width: 100.0%; height: 100.0%;">Puente de la Mujer (Día 5 - Viernes (Morado))</div>`)[0];
+            popup_beef242ff670e3ba745b349c18305e7f.setContent(html_d5771950e2c477587f3d65c8a372b9d7);
+        
+
+        marker_04d8f830472c7d462e23b216ee6e5066.bindPopup(popup_beef242ff670e3ba745b349c18305e7f)
+        ;
+
+        
+    
+    
+            var marker_d23729d5a204ce6d65920c7f4ad8b8d1 = L.marker(
+                [-34.617, -58.3525],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_0667467bba38bcc838d9d8a7bad8a88b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d23729d5a204ce6d65920c7f4ad8b8d1.setIcon(icon_0667467bba38bcc838d9d8a7bad8a88b);
+        
+    
+        var popup_ab2ab2bf6f12b2124976a89e98b87e39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4f249f3262ce450ecd82c7e25d44937 = $(`<div id="html_f4f249f3262ce450ecd82c7e25d44937" style="width: 100.0%; height: 100.0%;">Reserva Ecológica Costanera Sur (Día 5 - Viernes (Morado))</div>`)[0];
+            popup_ab2ab2bf6f12b2124976a89e98b87e39.setContent(html_f4f249f3262ce450ecd82c7e25d44937);
+        
+
+        marker_d23729d5a204ce6d65920c7f4ad8b8d1.bindPopup(popup_ab2ab2bf6f12b2124976a89e98b87e39)
+        ;
+
+        
+    
+    
+            var marker_20dde3eade76feb212de35b0c82e56d9 = L.marker(
+                [-34.5872, -58.3831],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_1eee55d67981737f60bde574921f6871 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_20dde3eade76feb212de35b0c82e56d9.setIcon(icon_1eee55d67981737f60bde574921f6871);
+        
+    
+        var popup_f2e945fb89e52dd0c9aad6e54a2bc4cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_980a18d0aa7ddcb5165fb7e4cb695799 = $(`<div id="html_980a18d0aa7ddcb5165fb7e4cb695799" style="width: 100.0%; height: 100.0%;">Restaurante Fervor (Día 5 - Viernes (Morado))</div>`)[0];
+            popup_f2e945fb89e52dd0c9aad6e54a2bc4cf.setContent(html_980a18d0aa7ddcb5165fb7e4cb695799);
+        
+
+        marker_20dde3eade76feb212de35b0c82e56d9.bindPopup(popup_f2e945fb89e52dd0c9aad6e54a2bc4cf)
+        ;
+
+        
+    
+    
+            var marker_f20f31094a9b923311895612c0528241 = L.marker(
+                [-34.5879, -58.3894],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_8336dd586b7a1a206112c2c5764b753b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f20f31094a9b923311895612c0528241.setIcon(icon_8336dd586b7a1a206112c2c5764b753b);
+        
+    
+        var popup_8937ea9f81f9475142a5370ff04931da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_746323fb9bccae3deb90bc890a431328 = $(`<div id="html_746323fb9bccae3deb90bc890a431328" style="width: 100.0%; height: 100.0%;">Heladería Rapa Nui (Día 5 - Viernes (Morado))</div>`)[0];
+            popup_8937ea9f81f9475142a5370ff04931da.setContent(html_746323fb9bccae3deb90bc890a431328);
+        
+
+        marker_f20f31094a9b923311895612c0528241.bindPopup(popup_8937ea9f81f9475142a5370ff04931da)
+        ;
+
+        
+    
+    
+            var marker_23522d7c06609ff59128ea74cde37e45 = L.marker(
+                [-34.5837, -58.4267],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_7761468a79a8523e2715877859513715 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_23522d7c06609ff59128ea74cde37e45.setIcon(icon_7761468a79a8523e2715877859513715);
+        
+    
+        var popup_00baef49112c277bbca544b2b080a57e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_425b288b68d346972eaa6798a9bd326a = $(`<div id="html_425b288b68d346972eaa6798a9bd326a" style="width: 100.0%; height: 100.0%;">Heladería RITA (Día 5 - Viernes (Morado))</div>`)[0];
+            popup_00baef49112c277bbca544b2b080a57e.setContent(html_425b288b68d346972eaa6798a9bd326a);
+        
+
+        marker_23522d7c06609ff59128ea74cde37e45.bindPopup(popup_00baef49112c277bbca544b2b080a57e)
+        ;
+
+        
+    
+    
+            var marker_museo_fortabat = L.marker(
+                [-34.6082, -58.3616],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_museo_fortabat = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_museo_fortabat.setIcon(icon_museo_fortabat);
+        
+    
+        var popup_museo_fortabat = L.popup({"maxWidth": "100%"});
+
+        
+            var html_museo_fortabat = $(`<div id="html_museo_fortabat" style="width: 100.0%; height: 100.0%;">Museo Fortabat (Día 5 - Viernes (Morado))</div>`)[0];
+            popup_museo_fortabat.setContent(html_museo_fortabat);
+        
+
+        marker_museo_fortabat.bindPopup(popup_museo_fortabat)
+        ;
+
+        
+    
+    
+            var marker_fragata_sarmiento = L.marker(
+                [-34.6095, -58.3655],
+                {}
+            ).addTo(map_962b564f7d7654e5bc725f3c279b6c68);
+        
+    
+            var icon_fragata_sarmiento = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_fragata_sarmiento.setIcon(icon_fragata_sarmiento);
+        
+    
+        var popup_fragata_sarmiento = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fragata_sarmiento = $(`<div id="html_fragata_sarmiento" style="width: 100.0%; height: 100.0%;">Fragata Sarmiento (Día 5 - Viernes (Morado))</div>`)[0];
+            popup_fragata_sarmiento.setContent(html_fragata_sarmiento);
+        
+
+        marker_fragata_sarmiento.bindPopup(popup_fragata_sarmiento)
+        ;
+
+        
+    
+</script>
+</html>
